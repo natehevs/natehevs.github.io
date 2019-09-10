@@ -1,0 +1,155 @@
+body{
+	background-color: black;
+}
+
+h1{
+	text-align: right;
+	font-family: verdana;
+	font-size: 35px;
+	color: white;
+}
+
+p{
+	text-align: right;
+	font-family: verdana;
+	font-size: 25px;
+	color: white;
+}
+
+ul{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 20;
+	font-family: verdana;
+}
+
+li{
+	border-right: 1px solid white;
+	float: right;
+	display: inline;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin: 15px;
+	text-decoration: none;
+	font-family: verdana;
+}
+
+li a:hover{
+	background-color: white;
+	color:black;
+}
+
+li: last-child{
+border-right: none;
+}
+
+footer{
+	bottom: 0;
+	color: white;
+	display: block;
+	text-align: center;
+}
+
+footer p{
+	text-align: center;
+	font-size: 15px;
+}
+
+p a{
+	text-decoration: none;
+	color: white;
+}
+.bigPictureClass{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .4;
+	padding: 25px;
+}
+
+.pic2{
+	float: left;
+}
+
+.pic3{
+	float: right;
+}
+
+h2{
+	text-align: left;
+	color: white;
+	font-family: verdana;
+	font-size: 25px;
+}
+
+h3{
+	text-align: right;
+	color: white;
+	font-family: verdana;
+	font-size: 25px;
+}
+
+section{
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 1000px;
+}
+
+article{
+	text-align: right;
+	margin-right: 100px;
+	margin-left: 1000px;
+}
+
+.footer{
+	text-align: center;
+	padding: 20px;
+}
+
+.header{
+	background-color: white;
+	text-align: center;
+	padding:20px;
+}
+
+.active{
+	background-color: #4CAF50;
+}
+
+.boldClass{
+	font-weight: bold;
+}
+
+#bigId{
+	font-size: 25px; 
+}
+
+#abouttext{
+	font-size: 15px;
+	text-align: left;
+}
+
+#projecttext{
+	font-size: 15px;
+	text-align: right;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
